@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/to_homeFragment">
+
+    <fragment
+        android:id="@+id/to_homeFragment"
+        android:name="dev.hackwithsodiq.devfestibadan.view.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/to_scheduleFragment"
+        android:name="dev.hackwithsodiq.devfestibadan.view.schedule.ScheduleFragment"
+        android:label="@string/schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/to_speakerFragment"
+        android:name="dev.hackwithsodiq.devfestibadan.view.speaker.SpeakerFragment"
+        android:label="@string/speaker"
+        tools:layout="@layout/fragment_speaker" />
+
+    <fragment
+        android:id="@+id/to_teamFragment"
+        android:name="dev.hackwithsodiq.devfestibadan.view.team.TeamFragment"
+        android:label="@string/team"
+        tools:layout="@layout/team_fragment" />
+</navigation>

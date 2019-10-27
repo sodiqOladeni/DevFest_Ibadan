@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DevFest Ibadan</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_speaker">Speaker</string>
+    <string name="title_team">Team</string>
+    <string name="schedule">Schedule</string>
+    <string name="speaker">Speaker</string>
+    <string name="team">Team</string>
+</resources>
