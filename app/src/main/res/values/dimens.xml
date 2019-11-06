@@ -2,4 +2,17 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="schedule_item_padding_vertical">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="speaker_headshot_size">40dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_normal_top">5dp</dimen>
+    <dimen name="feed_card_corner_radius">8dp</dimen>
+    <dimen name="feed_moment_height">250dp</dimen>
+    <dimen name="feed_announcement_min_height" />
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="team_headshot_size">80dp</dimen>
+    <dimen name="speaker_headshot_height">100dp</dimen>
+    <item name="feed_announcement_image_width_percent" type="dimen" format="float">0.3</item>
 </resources>

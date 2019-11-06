@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModelProvider
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
+import dev.hackwithsodiq.devfestibadan.view.MainActivityViewModel
 import dev.hackwithsodiq.devfestibadan.view.home.HomeViewModel
 import dev.hackwithsodiq.devfestibadan.view.schedule.ScheduleViewModel
 import dev.hackwithsodiq.devfestibadan.view.speaker.SpeakerViewModel
@@ -33,6 +34,11 @@ abstract class ViewModelModule {
     @IntoMap
     @ViewModelKey(TeamViewModel::class)
     abstract fun bindTeamViewModel(teamViewModel: TeamViewModel):ViewModel
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(MainActivityViewModel::class)
+    abstract fun bindMainActivityViewModel(viewModel: MainActivityViewModel):ViewModel
 
     @Binds
     abstract fun bindViewModelFactory(factory: ViewModelFactory):ViewModelProvider.Factory

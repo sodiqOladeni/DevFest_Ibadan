@@ -21,6 +21,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary true
     }
 
     dataBinding {
@@ -50,15 +51,15 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
     implementation 'com.android.support:multidex:1.0.3'
-    implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
-
+    implementation 'com.google.android.material:material:1.2.0-alpha01'
+    implementation 'androidx.cardview:cardview:1.0.0'
     //Navigation Components
     implementation 'androidx.navigation:navigation-fragment-ktx:2.1.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.1.0'
-
+    implementation 'com.google.android:flexbox:1.1.1'
     // dagger version
     def dagger_version = '2.23.2'
     implementation "com.google.dagger:dagger:$dagger_version"
@@ -68,24 +69,21 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0'
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
     kapt "com.google.dagger:dagger-android-processor:$dagger_version"
-
     //Kotlin coroutines
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.2"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.2.2"
-
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0"
     // architecture room persistence
     def arch_room_version = '2.2.1'
     implementation "androidx.room:room-runtime:$arch_room_version"
     kapt "androidx.room:room-compiler:$arch_room_version"
-
+    //Firebase
     implementation 'com.google.firebase:firebase-analytics:17.2.1'
-    // Firebase
     implementation 'com.google.firebase:firebase-messaging:20.0.0'
     implementation 'com.google.firebase:firebase-storage:19.1.0'
     implementation 'com.google.firebase:firebase-firestore:21.2.1'
     implementation 'com.google.firebase:firebase-core:17.2.1'
-
     //Image loading library
     implementation("io.coil-kt:coil:0.6.0")
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
 }
 apply plugin: 'com.google.gms.google-services'

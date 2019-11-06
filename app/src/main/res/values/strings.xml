@@ -6,7 +6,20 @@
     <string name="title_schedule">Schedule</string>
     <string name="title_speaker">Speaker</string>
     <string name="title_team">Team</string>
-    <string name="schedule">Schedule</string>
-    <string name="speaker">Speaker</string>
-    <string name="team">Team</string>
+    <string name="schedule">Schedules</string>
+    <string name="speaker">Speakers</string>
+    <string name="team">The Team</string>
+    <string name="no_schedule_available">No schedule available, please try again later</string>
+    <string name="no_speaker_published">No Speaker has been published</string>
+    <string name="what_is_gdg">What is a GDG?</string>
+    <string name="gdg_info">A Google Developer Group is a community of volunteers who create exciting projects and share experiences about Google technologies</string>
+    <string name="what_is_devfest">What is DevFest?</string>
+    <string name="devfest_info">DevFests are community-led developer events hosted by Google Developer Groups around the globe</string>
+    <string name="about_devfest_ibadan">About DevFest Ibadan</string>
+    <string name="devfestib_info">GDG DevFest Ibadan brings together the world class experts in Android, Web and Cloud technologies to Ibadan for surper 1-day of sessions, workshops and showcases.</string>
+    <string name="team_not_available">Team not available</string>
+    <string name="register">Register</string>
+    <string name="android">Android</string>
+    <string name="cloud">Cloud</string>
+    <string name="web">Web</string>
 </resources>

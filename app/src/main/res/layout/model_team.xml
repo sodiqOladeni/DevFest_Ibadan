@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="team"
+            type="dev.hackwithsodiq.devfestibadan.model.Team" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:paddingTop="@dimen/spacing_normal"
+        android:paddingBottom="@dimen/spacing_normal">
+
+        <!--
+        Using the speaker's id as the transition name so when there are multiple speakers the id is
+        unique, thus preventing conflicts with the transition name. See item_speaker_info.xml for
+        the corresponding shared element.
+         -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/headshot"
+            android:layout_width="@dimen/team_headshot_size"
+            android:layout_height="@dimen/team_headshot_size"
+            app:loadImage="@{team.imageLink}"
+            android:importantForAccessibility="no"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_default_avatar_1" />
+
+        <TextView
+            android:id="@+id/speaker_item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:textAlignment="viewStart"
+            android:text="@{team.name}"
+            android:textAppearance="?textAppearanceListItem"
+            app:layout_constraintBottom_toTopOf="@id/speaker_item_tag"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/headshot"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Speaker Name" />
+
+        <TextView
+            android:id="@+id/speaker_item_tag"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:text="@{team.role}"
+            android:textAlignment="viewStart"
+            app:layout_constraintBottom_toTopOf="@id/links"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/speaker_item_name"
+            app:layout_constraintTop_toBottomOf="@id/speaker_item_name"
+            tools:text="Speaker Company" />
+
+        <LinearLayout
+            android:id="@+id/links"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/speaker_item_name"
+            app:layout_constraintTop_toBottomOf="@id/speaker_item_tag">
+
+            <ImageView
+                android:id="@+id/team_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                app:srcCompat = "@drawable/ic_twitter_black_shape"/>
+
+            <ImageView
+                android:id="@+id/team_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                app:goneIfNull="@{team.webLink}"
+                app:srcCompat = "@drawable/ic_link_24dp"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#1a73e8</color>
-    <color name="colorPrimaryDark">#574ddd</color>
-    <color name="colorAccent">#27e5fd</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#441F85</color>
 
     <color name="deep_sky_blue">#1a73e8</color> <!-- colorPrimary in Light mode-->
     <color name="warm_blue">#574ddd</color> <!-- colorPrimaryDark in Light mode-->
@@ -13,8 +13,15 @@
     <color name="bright_light_blue">#27e5fd</color>
     <color name="sun_yellow">#fcd230</color>
     <color name="bright_orange">#ff6c00</color>
+    <color name="fair_black">#828282</color>
+    <color name="deep_hash">#A6AAB4</color>
 
     <color name="white">#fff</color>
     <color name="black">#000</color>
     <color name="transparent">#0fff</color>
+
+    <!-- Other colors -->
+    <color name="default_tag_color">#999</color>
+    <color name="light_grey">#e6e6e6</color>
+    <color name="scrim">#33000000</color> <!-- 20% black -->
 </resources>

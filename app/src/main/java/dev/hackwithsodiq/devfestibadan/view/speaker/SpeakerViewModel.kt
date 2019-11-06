@@ -8,5 +8,5 @@ import dev.hackwithsodiq.devfestibadan.data.AppDao
 import javax.inject.Inject
 
 class SpeakerViewModel @Inject constructor(private val dao: AppDao, private val firestore: FirebaseFirestore): ViewModel() {
-    // TODO: Implement the ViewModel
+    var allSchedules = dao.allSchedules()
 }

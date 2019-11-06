@@ -1,0 +1,66 @@
+{"team":[
+  {
+    "name": "Oyetola Taiwo",
+    "role": "Lead Organizer",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/WhatsApp%20Image%202019-11-05%20at%204.07.12%20PM.jpeg?alt=media&token=a1656a1e-579c-4771-a8c2-d1933621fc79",
+    "position": 1,
+    "twitter": "https://twitter.com/Oyhetola",
+    "webLink": "http://oyetolataiwo.website/"
+  },
+  {
+    "name": "Dapo Ajuwon",
+    "role": "Speakers, Event theme and Sponsors",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/WhatsApp%20Image%202019-11-05%20at%204.07.03%20PM.jpeg?alt=media&token=cb8dd428-ab7b-4794-991c-7f3e71a78df3",
+    "position": 2,
+    "twitter": "https://twitter.com/dapseen",
+    "webLink": null
+  },
+  {
+    "name": "Otaru Babatunde",
+    "role": "Speakers, Event theme and Sponsors",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/WhatsApp%20Image%202019-11-05%20at%204.07.13%20PM.jpeg?alt=media&token=b47a1074-8197-45fb-ba3b-8c3180c48b15",
+    "position": 3,
+    "twitter": "https://twitter.com/mendizel",
+    "webLink": null
+  },
+  {
+    "name": "Luthfulahi Oseni",
+    "role": "Website and Logistics",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/WhatsApp%20Image%202019-11-05%20at%204.07.11%20PM.jpeg?alt=media&token=331eff5f-37d4-4d72-8b45-3eb53bc15957",
+    "position": 4,
+    "twitter": "https://twitter.com/luthfulahi",
+    "webLink": "https://luthfulahi.tech"
+  },
+  {
+    "name": "Sodiq Ogunyeiwa",
+    "role": "Mobile App and Logistics",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/newDp.jpeg?alt=media&token=58c4e0c0-bb3e-4ecc-9086-971eb2f4f3f2",
+    "position": 5,
+    "twitter": "https://twitter.com/sodiqOladeni",
+    "webLink": "http://hackwithsodiq.dev/"
+  },
+  {
+    "name": "Deborah Joseph",
+    "role": "Hackathon Organizer",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/WhatsApp%20Image%202019-11-05%20at%204.07.08%20PM.jpeg?alt=media&token=6db89a38-59fb-4dbb-b354-10fa53c79c5a",
+    "position": 6,
+    "twitter": "https://twitter.com/JosephDeborah01",
+    "webLink": null
+  },
+  {
+    "name": "Olu Flourish",
+    "role": "Hackathon Organizer",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/WhatsApp%20Image%202019-11-05%20at%204.07.10%20PM.jpeg?alt=media&token=4e37d535-8e7d-4bdb-8b20-59045c1d37c8",
+    "position": 7,
+    "twitter": "https://twitter.com/eoluflourish",
+    "webLink": null
+  },
+  {
+    "name": "Olayemi Oluwadurotimi",
+    "role": "Event Coordinator",
+    "imageLink":"https://firebasestorage.googleapis.com/v0/b/devfest-ibadan.appspot.com/o/WhatsApp%20Image%202019-11-06%20at%205.35.56%20AM.jpeg?alt=media&token=cd1c48d4-5ad7-4a7e-ae93-7d874b353daf",
+    "position": 8,
+    "twitter": "https://twitter.com/com_Olayemi",
+    "webLink": null
+  }
+]}

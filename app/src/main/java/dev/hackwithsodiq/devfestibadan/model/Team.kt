@@ -1,11 +1,10 @@
 package dev.hackwithsodiq.devfestibadan.model
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-
-@Entity(tableName = "team_tb")
-class Team {
-
-    @PrimaryKey
-    var teamId:String = ""
-}
+data class Team (
+    var name: String,
+    var role: String,
+    var imageLink:String? = null,
+    var position:Int,
+    var twitter: String,
+    var webLink:String? = null
+    )

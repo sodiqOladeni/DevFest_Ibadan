@@ -8,7 +8,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import dev.hackwithsodiq.devfestibadan.databinding.FragmentHomeBinding
 import dev.hackwithsodiq.devfestibadan.view.BaseFragment
+import kotlinx.android.synthetic.main.fragment_home.*
 import javax.inject.Inject
+import android.content.Intent
+import android.net.Uri
+
+
 
 class HomeFragment : BaseFragment() {
 
@@ -25,5 +30,15 @@ class HomeFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(HomeViewModel::class.java)
+
+        fab.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.eventbrite.com/e/devfest-ibadan-tickets-76350070115")))
+        }
+        whatGdg.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://developers.google.com/groups/")))
+        }
+        whatDevFest.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://devfest.withgoogle.com/")))
+        }
     }
 }

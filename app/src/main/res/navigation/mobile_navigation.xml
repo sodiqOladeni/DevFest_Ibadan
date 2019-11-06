@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/to_scheduleFragment"
-        android:name="dev.hackwithsodiq.devfestibadan.view.schedule.ScheduleFragment"
+        android:name="dev.hackwithsodiq.devfestibadan.view.schedule.ScheduleMainFragment"
         android:label="@string/schedule"
         tools:layout="@layout/fragment_schedule" />
 
